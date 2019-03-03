@@ -1,6 +1,6 @@
 .wrapper {
-    width: 960px;
-    margin: 0 auto;
+    width: 70vw;
+    margin: 0 15%;
     /* height: calc(100vh + 100px); */
     margin-bottom: 100px;
     
@@ -50,6 +50,7 @@
     display: block;
     float: left;
     margin-right: 20px;
+    width: 40%;
 }
 
 .content-gallery {
@@ -150,8 +151,12 @@ hr {
     height: 100%;
     color: #fff;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    padding: 15px 15px 0px 15px;
-    margin-bottom: 0px;
+    padding: 15px 0px 0px 0px;
+    /* margin-bottom: 0px; */
+    margin: auto 0;
+    max-width: 300px;
+    width: 40%;
+    text-align: center;
 }
 
 #largeMsgBox {
@@ -161,11 +166,27 @@ hr {
 }
 
 @media only screen and (max-width: 980px) {
-    
+    #name-box {
+        font-size: 22pt;
+    }
+
+    li a {
+        font-size: 10pt;
+    }
 }
 @media only screen and (max-width: 768px) {
-
+    /* .wrapper {
+        width: 70vw;
+    } */
 }
 @media only screen and (max-width: 640px) {
+    li a {
+        font-size: 8pt;
+    }
+}
 
+@media only screen and (max-width: 500px) {
+    li a {
+        font-size: 6pt;
+    }
 }
