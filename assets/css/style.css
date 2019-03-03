@@ -1,0 +1,171 @@
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    /* height: calc(100vh + 100px); */
+    margin-bottom: 100px;
+    
+}
+.header {
+    background-color: #ffffff;
+    border-bottom: 2px solid #777; 
+    display: block;
+    height: 80px;
+    position: relative;
+    bottom: 8px;
+    /* margin-bottom: 50px; */
+    
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.grey-head-line {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    background-color: #fff;
+    width: 100%;
+    height: 72px;
+    border-bottom: 2px solid #777;
+}
+
+
+.content-wrapper {
+    padding: 10px 30px;
+    background-color: white;
+    margin-top: 10px;
+    line-height: 2;
+    overflow: auto;
+}
+
+.content-text {
+    padding-top: 15px;
+}
+
+.content-text img {
+    display: block;
+    float: left;
+    margin-right: 20px;
+}
+
+.content-gallery {
+    margin: 5px;
+    float: left;
+    width: 180px;
+}
+
+.content-gallery img {
+    border: 1px solid #777;
+    width: 100%;
+    height: 180px;
+}
+
+.content-gallery img:hover {
+    border: 2px solid #4aaaa5;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.footer {
+    border-top: 8px solid #4aaaa5;
+    color: white;
+    text-align: center;
+    background-color: #666;
+    width: 100%;
+    height: 45px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;   
+    height: 80px; 
+}
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    margin-top: 17px;
+    text-decoration: none;
+    
+}
+
+li a:link, a:visited {
+    color: #777777;
+    background-color: white;
+}
+
+li a:hover, a:active {
+    background-color: #4aaaa5;
+
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:#777777;
+    background-image: url("https://wallpaperplay.com/walls/full/b/f/7/79360.jpg"), linear-gradient(#84ebe5, black);
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+h1, h2, h6 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h1, h2 {
+    color: #4aaaa5;
+}
+p {
+    margin-top: 0;
+}
+
+hr {
+    display: block;
+}
+
+#name-box {
+    float: left;
+    font-size: 40px;
+    background-color: #4aaaa5;
+    height: 100%;
+    color: #fff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 15px 15px 0px 15px;
+    margin-bottom: 0px;
+}
+
+#largeMsgBox {
+    width: 100%;
+    height: 150px;
+    overflow: auto;
+}
+
+@media only screen and (max-width: 980px) {
+    
+}
+@media only screen and (max-width: 768px) {
+
+}
+@media only screen and (max-width: 640px) {
+
+}
